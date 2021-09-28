@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+#navbar {
+    width: 20%;
+    border: 2px red solid;
+}
+
+#nav-title {
+    position: fixed;
+    margin: 0;
+    height: 3rem;
+    max-width: 100%;
+    background-color: aquamarine;
+    border-bottom: 1px solid black;
+    font-size: 2rem;
+}
+
+li {
+    list-style: none;
+    margin: 15px 0px 10px 0px;
+    border-bottom: 1px solid grey;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+
+}
+
+#main-doc {
+    width: 80%;
+    border: 2px red solid;
+    margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbar {
+        width: 80%;
+        border: 2px red solid;
+    }
+    
+}
